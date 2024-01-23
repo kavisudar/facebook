@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Facebook</title>
+        <title>Sign up for Facebook</title>
         <link rel="stylesheet" href="/facebook/css/facebook.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="main-div">
             <h1 id="logo">facebook</h1>
+            <form>
+                <div class="signup-form">
+                    <div class="heading">
+                        <h2>Create a new account</h2>
+                        <p>It's quick and easy.</p>
+                    </div>
+                    <div class="input-fields">
+                        <div id="inner-box">
+                        <div class="half-width">
+                            <input type="text" placeholder="First name"/>
+                        </div>
+                        <div class="half-width">
+                            <input type="text" placeholder="sur name"/>
+                        </div>
+                        <div class="full-width">
+                            <input type="text" placeholder="Mobile number or email address"/>
+                        </div>
+                        <div class="full-width">
+                            <input type="password" placeholder="New password"/>
+                        </div>
+                        <label id="dob-l">Date of birth</label>
+                        <div class="dob-div">
+                            <div class="quta-width">
+                            <select>
+                                <option>22</option>
+                                <option>21</option>
+                            </select>
+                            <select>
+                                <option>1</option>
+                                <option>4</option>
+                            </select>
+                            <select>
+                                <option>2003</option>
+                                <option>2024</option>
+                            </select>
+                        </div>
+                        </div>
+                        <label>Gender</label>
+                        <div class="Gender">
+                            <div class="radio-btn">
+                                <label class="radio-label">Female</label>
+                                <input type="radio" class="radio-ip"/>
+                            </div>
+                            <div class="radio-btn">
+                                <label class="radio-label">Male</label>
+                                <input type="radio" class="radio-ip"/>
+                            </div>
+                            <div class="radio-btn">
+                                <label class="radio-label">Custom</label>
+                                <input type="radio" class="radio-ip"/>
+                            </div>
+                        </div>
+                        <small>People who use our service may have uploaded your contact information to Facebook. Learn more.</small>
+
+                            <small>By clicking Sign Up, you agree to ourTerms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</small>
+                           <div class="signupbtn">
+                            <button>Sign Up</button>
+                        </div>
+                        </div>
+                        <div id="login-link">
+                            <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzA2MDM0MzQxLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D">Already have an account? </a>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </body>
 </html>
