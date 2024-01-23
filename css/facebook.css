@@ -1,12 +1,134 @@
-body ,h1{
+body ,h1,p,h2,#dob-l{
     margin:0px;
+    font-family: 'Roboto',sans-serif;
+}
+p{
+    color: #607190;
+    padding-left: 10px;
 }
 .main-div{
     background-color: #f0f2f5;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    box-shadow: 1px solid #606770;
 }
 #logo{
-    font-size: 55px;
+    font-size: 58px;
     color: #0866ff;
+    padding: 25px 0px;
+}
+.signup-form{
+    background-color: #ffff;
+    width: 425px;
+    border-radius: 5px;
+    
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    
+}
+h2{
+    padding-bottom: 5px;
+}
+#inner-box{
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+input,select{
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto',sans-serif;
+    width: 100%;
+    font-size: 16px;
+    
+}
+.input-fields{
+    display: flex;
+    flex-wrap: wrap;
+}
+.half-width{
+    padding-top: 8px;
+    width: 49%;
+    display: flex;
+}
+.full-width{
+    width: 98%;
+    display: flex;
+}
+.dob-div{
+    display: flex;
+    width: 100%;
+}
+.quta-width{
+    display: flex;
+    width: 98%;
+}
+.radio-label{
+    font-size: 15px;
+    padding-top: 5px;
+    color: rgb(0,0,0);
+}
+label{
+    font-size: 12px;
+    color: #606770;
+    padding: 10px 0px 8px 5px;
+}
+.Gender{
+    width: 98%;
+    display: flex;
+}
+.radio-btn{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    width: 28%;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.radio-ip{
+    width: auto;
+}
+.para{
+    padding: 5px;
+    font-size: 12px;
+}
+small{
+    padding: 10px;
+    font-size: 11.75px;
+    color: #777;
+}
+.signupbtn{
+    padding-bottom: 8px;
+}
+button{
+    padding: 8px 56px;
+    background-color: #00a400;
+    color: #ffff;
+    border: inherit;
+    border-radius: 5px;
+    margin-left:100px;
+    font-size: 18px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    width: 100%;
+    padding-left: 60px;
+    margin:15px 0px 0px 50px;
+    color: #0866ff;
+}
+#login-link{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
